@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AAF493A290D29F2003B4A50 /* RPSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF4939290D29F2003B4A50 /* RPSManager.swift */; };
 		9AF6D5572905501F007A72BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6D5562905501F007A72BD /* AppDelegate.swift */; };
 		9AF6D5592905501F007A72BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6D5582905501F007A72BD /* SceneDelegate.swift */; };
 		9AF6D55B2905501F007A72BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6D55A2905501F007A72BD /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9AAF4939290D29F2003B4A50 /* RPSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSManager.swift; sourceTree = "<group>"; };
 		9AF6D5532905501F007A72BD /* [iOS] RpsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[iOS] RpsGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF6D5562905501F007A72BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AF6D5582905501F007A72BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AAF4936290D29B8003B4A50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AF6D56A290553FC007A72BD /* Rps.swift */,
+				9AAF4939290D29F2003B4A50 /* RPSManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9AAF4937290D29BB003B4A50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AF6D55C2905501F007A72BD /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AAF4938290D29BF003B4A50 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AF6D55A2905501F007A72BD /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		9AF6D54A2905501F007A72BD = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +87,9 @@
 			children = (
 				9AF6D5562905501F007A72BD /* AppDelegate.swift */,
 				9AF6D5582905501F007A72BD /* SceneDelegate.swift */,
-				9AF6D55A2905501F007A72BD /* ViewController.swift */,
-				9AF6D56A290553FC007A72BD /* Rps.swift */,
-				9AF6D55C2905501F007A72BD /* Main.storyboard */,
+				9AAF4936290D29B8003B4A50 /* Models */,
+				9AAF4937290D29BB003B4A50 /* Views */,
+				9AAF4938290D29BF003B4A50 /* Controllers */,
 				9AF6D55F29055020007A72BD /* Assets.xcassets */,
 				9AF6D56129055020007A72BD /* LaunchScreen.storyboard */,
 				9AF6D56429055021007A72BD /* Info.plist */,
@@ -145,6 +172,7 @@
 				9AF6D56B290553FC007A72BD /* Rps.swift in Sources */,
 				9AF6D5572905501F007A72BD /* AppDelegate.swift in Sources */,
 				9AF6D5592905501F007A72BD /* SceneDelegate.swift in Sources */,
+				9AAF493A290D29F2003B4A50 /* RPSManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
